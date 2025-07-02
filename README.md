@@ -1,35 +1,38 @@
 <p align="center">
-  <img src="https://i.imgur.com/your-logo.png" height="100" alt="BajaMP3 Logo">
+  <img src="https://raw.githubusercontent.com/joseph-003/bajamp3/main/static/img/logo.png" alt="BajaMP3 logo" height="80" />
   <h1 align="center">BajaMP3</h1>
-  <p align="center">Convierte y descarga música de YouTube en formato MP3 fácil y rápido.</p>
+  <p align="center">🎶 Descargas MP3 desde YouTube gratis, rápido y fácil.</p>
 </p>
 
 <p align="center">
-  <a href="https://github.com/tuusuario/BajaMP3">
-    <img alt="Repo Size" src="https://img.shields.io/github/repo-size/tuusuario/BajaMP3?color=blue">
-  </a>
-  <a href="https://github.com/tuusuario/BajaMP3">
-    <img alt="Stars" src="https://img.shields.io/github/stars/tuusuario/BajaMP3?style=social">
-  </a>
-  <a href="https://github.com/tuusuario/BajaMP3/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/github/license/tuusuario/BajaMP3">
-  </a>
+  <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/Flask-Web_App-000?style=for-the-badge&logo=flask" />
+  <img src="https://img.shields.io/badge/yt--dlp-YouTube_Downloader-orange?style=for-the-badge" />
 </p>
 
 ---
 
-## 🚀 Características
+## 🚀 ¿Qué es BajaMP3?
 
-- 🎵 Convierte videos de YouTube a MP3
-- ⚡ Descargas rápidas y de alta calidad
-- 💻 Interfaz web moderna con Flask
-- 📱 Responsive para móvil y tablets
+BajaMP3 es una aplicación web desarrollada en Python con Flask que permite convertir videos de YouTube a MP3 en alta calidad usando la librería `yt-dlp`.  
+Está inspirada en MP3Juice pero es totalmente libre y personalizable.
 
 ---
 
-## 🛠 Instalación local
+## 🧰 Tecnologías usadas
+
+- Python 3.10+
+- Flask
+- yt-dlp
+- HTML, CSS, JS (Frontend responsivo)
+- FontAwesome y Google Fonts
+
+---
+
+## 📦 Instalación local
 
 1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tuusuario/BajaMP3.git
-   cd BajaMP3
+
+```bash
+git clone https://github.com/joseph-003/bajamp3.git
+cd bajamp3
