@@ -1,4 +1,4 @@
-<div style="text-align: center;">
+<div align="center">
   <h1>BajaMP3</h1>
   <p>🎶 Descargas MP3 desde YouTube gratis, rápido y fácil.</p>
 
