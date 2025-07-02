@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #0e0e0e;
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  padding: 2rem 1rem;
+}
+
+.fade-in {
+  animation: fadeIn 2s ease-in;
+}
+
+.input-container {
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+input[type="text"] {
+  padding: 0.75rem;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  background-color: #1db954;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1ed760;
+}
+
+#text {
+  max-width: 800px;         /* Limita el ancho */
+  margin: 40px auto;        /* Centra horizontalmente */
+  padding: 20px 30px;
+  background-color: #1a1a1a;
+  color: #ddd;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  text-align: justify;      /* Justifica el texto */
+}
+
+#text {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #111;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  font-family: 'Roboto', sans-serif;
+  color: #e0e0e0;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+#text h2 {
+  color: #1db954;
+  margin-top: 30px;
+  font-size: 1.6em;
+}
+
+#text ul, #text ol {
+  margin: 15px 0 30px 30px;
+}
+
+#text li {
+  margin-bottom: 12px;
+}
+
+#text strong {
+  color: #ffffff;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* espacio entre logo y texto */
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Estilos base para desktop ya existentes... */
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+  flex-wrap: wrap; /* Esto permite que se acomode si no entra en una línea */
+  text-align: center;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+}
+
+/* Estilo responsivo para tablets y teléfonos */
+@media (max-width: 768px) {
+  .header-logo {
+    flex-direction: column;
+  }
+
+  .logo {
+    height: 60px;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .input-container input {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .input-container button {
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  #text {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
+}
+
+

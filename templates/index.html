@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>BajaMP3 - Convertidor de YouTube a MP3</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Convierte y descarga música MP3 desde YouTube de forma rápida y gratis.">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header-logo">
+  <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Logo" class="logo">
+  <h1>BajaMP3 - Convertidor de YouTube a MP3</h1>
+</header>
+
+  <main>
+    <form method="POST" class="input-container">
+      <input type="text" name="url" placeholder="Pega la URL de YouTube aquí..." required>
+      <button type="submit"><i class="fa fa-download"></i> Descargar</button>
+    </form>
+  </main>
+
+<div id="text">
+  <h2>¿Qué es BajaMP3?</h2>
+  <p>BajaMP3 es una plataforma de búsqueda que permite a los usuarios buscar, transmitir y descargar archivos MP3 gratis. Con una extensa biblioteca de canciones de varios géneros y artistas, BajaMP3 proporciona una forma conveniente de acceder a la música sin costo. La plataforma es fácil de usar, lo que hace que sea sencillo encontrar y descargar tus canciones favoritas.</p>
+
+  <h2>Características Clave de BajaMP3</h2>
+  <ul>
+    <li><strong>Interfaz Amigable:</strong> El diseño minimalista hace que buscar y descargar música sea muy fácil.</li>
+    <li><strong>Gratis:</strong> Puedes descargar música ilimitadamente sin gastar nada.</li>
+    <li><strong>Alta Calidad:</strong> BajaMP3 ofrece archivos MP3 en alta calidad de audio.</li>
+    <li><strong>Sin Registro:</strong> No necesitas crear una cuenta para usarlo.</li>
+  </ul>
+
+  <h2>Cómo Usar BajaMP3</h2>
+    <ol>
+  <li><strong>Pegar el enlace:</strong> Copia y pega la URL del video de YouTube que contiene la canción que deseas.</li>
+  <li><strong>Presionar Descargar:</strong> Haz clic en el botón de descarga para iniciar el proceso.</li>
+  <li><strong>Esperar la conversión:</strong> El sistema convertirá automáticamente el video a formato MP3.</li>
+  <li><strong>Guardar el archivo:</strong> La canción se descargará directamente a tu dispositivo en alta calidad.</li>
+    </ol>
+
+
+  <h2>¿Por Qué Elegir BajaMP3?</h2>
+  <ul>
+    <li><strong>Económico:</strong> Todo el contenido es completamente gratis.</li>
+    <li><strong>Fácil de usar:</strong> Interfaz clara e intuitiva para todos los niveles de usuario.</li>
+    <li><strong>Sin Registro:</strong> Puedes usarlo de inmediato sin registrarte.</li>
+    <li><strong>Amplia Variedad:</strong> Ofrece música para todos los gustos y estilos.</li>
+    <li><strong>Calidad de Sonido:</strong> Disfruta tus canciones en la mejor calidad posible.</li>
+  </ul>
+
+  <h2>Conclusión</h2>
+<p>BajaMP3 es una herramienta ideal para quienes desean descargar música de YouTube de forma rápida, gratuita y sin complicaciones. Con un diseño intuitivo, tiempos de descarga optimizados y sin necesidad de registro, ofrece una experiencia simple y eficaz para disfrutar de tus canciones favoritas en formato MP3, directamente en tu dispositivo.</p>
+
+</div>
+
+
+
+
+  <footer>
+    <p>Copyright © 2025 JosephProyect</p>
+  </footer>
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
