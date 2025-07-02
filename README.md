@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/joseph-003/bajamp3/main/static/img/presnetacion.png" alt="presentacion" height="80" />
+  <img src="https://raw.githubusercontent.com/joseph-003/bajamp3/main/static/img/presentacion.png" alt="presentacion" height="80" />
   <h1 align="center">BajaMP3</h1>
   <p align="center">🎶 Descargas MP3 desde YouTube gratis, rápido y fácil.</p>
 </p>
