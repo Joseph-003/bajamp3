@@ -1,4 +1,4 @@
-<div align="center">
+<div style="text-align: center;">
   <h1>BajaMP3</h1>
   <p>🎶 Descargas MP3 desde YouTube gratis, rápido y fácil.</p>
 
@@ -9,7 +9,7 @@
   </div>
 
   <hr style="width: 80%; margin: auto;" />
-<div style="text-align: center;">
+
   <h2>🚀 ¿Qué es BajaMP3?</h2>
   <p>
     <strong>BajaMP3</strong> es una aplicación web desarrollada en Python con Flask que permite convertir
