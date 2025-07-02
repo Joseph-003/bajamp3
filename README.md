@@ -35,5 +35,5 @@ Está inspirada en MP3Juice pero es totalmente libre y personalizable.
 ```bash
 git clone https://github.com/joseph-003/bajamp3.git
 cd bajamp3
-
+---
 <img src="https://raw.githubusercontent.com/joseph-003/bajamp3/main/static/img/presentacion.png" alt="presentacion"/>
