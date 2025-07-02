@@ -1,5 +1,4 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/joseph-003/bajamp3/main/static/img/presentacion.png" alt="presentacion" height="80" />
   <h1 align="center">BajaMP3</h1>
   <p align="center">🎶 Descargas MP3 desde YouTube gratis, rápido y fácil.</p>
 </p>
@@ -36,3 +35,5 @@ Está inspirada en MP3Juice pero es totalmente libre y personalizable.
 ```bash
 git clone https://github.com/joseph-003/bajamp3.git
 cd bajamp3
+
+<img src="https://raw.githubusercontent.com/joseph-003/bajamp3/main/static/img/presentacion.png" alt="presentacion"/>
